@@ -48,9 +48,11 @@ CACHES = {
 # Application definition
 
 INSTALLED_APPS = [
+    'posts',
     'dashboard',
     'settings',
     'rest_framework',
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
